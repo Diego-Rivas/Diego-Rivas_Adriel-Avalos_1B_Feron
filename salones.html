@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Prestige - Salones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid ">
+            <a class="navbar-brand fs-4 fw-medium p-1 text-warning ms-5" href="#">Eventos Prestige</a>
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <ul class="navbar-nav fs-4 fw-medium p-1">
+              <li class="nav-item">
+                <a class="nav-link text-warning" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary text-opacity-75" href="./clientes.html">Clientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary text-opacity-75" href="./eventos.html">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-primary text-opacity-75" href="./salones.html">Salones</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main class="container py-4">
+        <div class="card shadow-sm">
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Nombre del Salon</th>
+                            <th>Capacidad</th>
+                            <th>Precio Renta</th>
+                            <th class="text-end">Ubicacion</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaSalones">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+      </main>
+
+    <script type="module" src="./js/controllers/salonesController.js"></script>
+</body>
+</html>
